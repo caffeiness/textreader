@@ -2,20 +2,16 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<!-- スマホで見やすくする設定 -->
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<!-- ブラウザのタブに表示されるタイトル -->
 <title>音声合成アプリ</title>
 </head>
  
 <body>
-<!-- ここにボタンなどの UI 部品を置く -->
 <input id = "txt" type="text" size="70" value="生麦生米生卵">
 <input id = "btn" type="button" value="話す">
 <input id = "btn2" type="button" value="消去">
  
 <script>
-// この中に JavaScript のプログラムを書く
     const btn =document.getElementById("btn")
     const btn2 =document.getElementById("btn2")
     btn.addEventListener("click",()=>{
